@@ -14,27 +14,6 @@ buttons.forEach(button =>
                     <p>Humidité: ${data.humidite}%</p>
                     <p>Précipitations: ${data.precipitations}%</p>
                     <p>Indice UV ${data.indiceUV}</p>`
-});
-
-    
-    //   const ville = document.createElement("div");
-
-    //   const nom = document.createElement("h2");
-    //   nom.textContent = data.nom;
-
-    //   const humidite = document.createElement("p");
-    //   humidite.textContent = data.humidite;
-
-    //   const indiceUv = document.createElement("p");
-    //   indiceUv.textContent = data.indiceUV;
-
-    //   const temp = document.createElement("p");
-    //   temp.textContent = `${data.temperature}°C`;
-
-    //   document.body.appendChild(ville);
-    //   ville.appendChild(nom);
-    //   ville.appendChild(humidite);
-    //   ville.appendChild(indiceUv);
-    //   ville.appendChild(temp);
+        });
     });
 });

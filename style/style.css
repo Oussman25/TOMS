@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Rustic Pantry';
+    src: url('../font/RusticPantryRegular.woff2') format('woff2'),
+        url('../font/RusticPantryRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pantry';
+    src: url('../font/PantryRegular.woff2') format('woff2'),
+        url('../font/PantryRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
     margin: 0;
     width: 100vw;
@@ -9,13 +27,14 @@ body{
 }
 
 header{
+    font-family: 'Pantry';
+    font-size: 35px;
     position: absolute;
     height: 120px;
     width: 100%;
     top: 0;
     display: flex;
     align-items: center;
-    gap: 70px;
 }
 
 header img{
