@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+header img{
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.infoMeteo{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    background: rgb(141,194,60);
+    background: linear-gradient(120deg, rgba(141,194,60,1) 82%, rgba(194,216,65,1) 100%);
+    width: 180px;
+    height: 350px;
+    border-radius: 3%;
+    z-index: 1;
+}
+
+.infoMeteo p{
+    font-size: 1.2em;
+}
+
+.carte{
+    position: absolute;
+    width: 785px;
+    height: 715px;
+    background-image: url('../img/carte-france.webp');
+    background-size: contain;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.Lille{
+    transform: translate(388px, 19px);
+}
+
+.Strasbourg{
+    transform: translate(615px, 170px);
+}
+
+.Paris {
+    transform: translate(364px, 158px);
+}
+
+.Nantes {
+    transform: translate(181px, 270px);
+}
+
+.Bordeaux {
+    transform: translate(205px, 466px);
+}
+
+.Lyon{
+    transform: translate(485px, 374px);
+}
+
+.Nice {
+    transform: translate(615px, 517px);
+}
+
+.Marseille {
+    transform: translate(529px, 571px);
+}
+
+.Montpellier {
+    transform: translate(440px, 550px);
+}
+
+.Toulouse {
+    transform: translate(330px, 531px);
+}
+
