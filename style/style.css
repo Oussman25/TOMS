@@ -17,25 +17,45 @@
 }
 
 body {
-  background-image: url("../img/drapeau_francais.jfif");
-  background-size: contain;
-  margin: 0;
+  /* background-image: url("../img/bg.png");
+  background-size: cover; */
+  /* background-position: center;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  margin: 0;
 }
 
 header {
   font-family: "Pantry";
   font-size: 35px;
-  position: absolute;
-  height: 120px;
+  color: white;
+  background: rgb(142, 228, 255);
+  background: radial-gradient(
+    circle,
+    rgba(142, 228, 255, 1) 62%,
+    rgba(139, 222, 255, 1) 100%
+  );
+  height: 15vh;
   width: 100%;
   top: 0;
   display: flex;
   align-items: center;
+}
+
+section {
+  background-position: center;
+  margin: 0;
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-position: top;
 }
 
 header img {
@@ -72,8 +92,8 @@ header img {
 }
 
 .infoMeteo img {
-  width: 50px;
-  height: auto;
+  width: auto;
+  height: 50px;
 }
 
 .carte {
@@ -88,7 +108,8 @@ button {
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-  background-color: black;
+  background-color: aliceblue;
+  border: 2px solid #0071bc;
   border-radius: 50%;
   position: absolute;
 }
