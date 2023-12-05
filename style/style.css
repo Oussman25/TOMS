@@ -116,11 +116,6 @@ button {
   color: aliceblue;
 }
 
-button:hover{
-    background-color: #0071bc;
-    border: 2px solid aliceblue;
-}
-
 .Lille {
   transform: translate(388px, 19px);
 }

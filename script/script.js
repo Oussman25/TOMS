@@ -37,6 +37,8 @@ function updateButtonProperties(button, data) {
     button.style.width = "auto";
     button.style.height = "auto";
     button.style.borderRadius = "5px";
+    button.style.backgroundColor = "#0071bc";
+    button.style.border = "2px solid aliceblue";
 }
 
 // Fonction pour réinitialiser les propriétés du bouton
@@ -45,9 +47,11 @@ function resetButtonProperties(button) {
     button.style.width = "30px";
     button.style.height = "30px";
     button.style.borderRadius = "50%";
+    button.style.backgroundColor = "aliceblue";
+    button.style.border = "2px solid #0071bc";
 }
 
-// Fonction pour afficher les informations météorologiques
+// Fonction pour afficher la météo
 function displayWeatherInfo(data) {
     urlImgMeteo(data.conditionsMeteo);
     meteoDiv.style.display = "flex";
@@ -60,7 +64,7 @@ function displayWeatherInfo(data) {
                     <p>Indice UV ${data.indiceUV}</p>`;
 }
 
-// Fonction pour déterminer l'URL de l'image en fonction des conditions météorologiques
+// Fonction pour déterminer l'URL de l'image en fonction de la météo
 function urlImgMeteo(conditionsMeteo) {
     if (conditionsMeteo === "Pluvieux") {
         srcImgMeteo = "../img/pluie.png";
