@@ -17,6 +17,8 @@
 }
 
 body {
+  background-image: url("../img/drapeau_francais.jfif");
+  background-size: contain;
   margin: 0;
   width: 100vw;
   height: 100vh;
@@ -26,7 +28,7 @@ body {
 }
 
 header {
-  font-family: "Rustic Pantry";
+  font-family: "Pantry";
   font-size: 35px;
   position: absolute;
   height: 120px;
